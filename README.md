@@ -4,20 +4,14 @@
 ## Project Overview
 ### Purpose
 
-For this project I am creating data visualization with Tableau for bike-sharing program in New Your City for the August 2019. The idea is to analyze data, see the mechanic of the business in NYC and figure out how the bike-share business actually works in NYC. This is the first step of expanding the idea to other cities. With a strong and clear story, backed-up by data we can create a proposal on how the business could work in other cities as well.
+For this project I am creating data visualization with Tableau for bike-sharing program in New Your City. The idea is to analyze the data, see the mechanic of the business and figure out how the bike-share business actually works in NYC. This is the first step of expanding the idea to other cities. With a strong and clear story, backed-up by data we can create a proposal on how the business could work in other cities as well.
 
-<p align="center">
-<img src="Graphics/Tableau.PNG" width="30%" height="30%">
-</p>
+**The Tableau story of the NYC Citi Bike can be found in the following link:** [NYC CitiBike Story](https://public.tableau.com/profile/andreja7092#!/vizhome/NYCCitiBikeStory_16026261346390/NYCCitiBike)
 
-The story of the NYC Citi Bike can be found in the following link:
-:bike: [NYC CitiBike Story](https://public.tableau.com/profile/andreja7092#!/vizhome/NYCCitiBikeStory_16026261346390/NYCCitiBike) :bike:
-
- NYC Citi Bike Story :bike:
 
 ### Background 
 
-Tableau is one of the most popular tools for data visualization in today’s professional world. It allows data visualization professionals to create data stories that are visually appealing and easy to understand for a non-technical audience. Moreover, Tableau provides the tool to create powerful analytic dashboards and tell a clear story that can be easily shared with others. Tableau can be simple, requiring little-to-no-coding, yet on the other hand can be quite complex, requiring some experience for example convert datatypes and write custom code in so-called *calculated field*. For this project I am using:
+Tableau is one of the most popular tools for data visualization in today’s professional world. It allows data visualization professionals to create data stories that are visually appealing and easy to understand for a non-technical audience. Moreover, Tableau provides the tool to create powerful analytic dashboards and tell a clear story that can be easily shared with others. Tableau can be simple, requiring little-to-no-coding, yet on the other hand can be quite complex, requiring some experience. For example convert datatypes or write custom code in so-called *calculated field*. For this project I am using:
 -	Tableau to create visualizations, dashboard and story.
 -	Pandas to convert integer to a datetime datatype.
 
@@ -30,8 +24,9 @@ Tableau is one of the most popular tools for data visualization in today’s pro
     - Pandas, environment Python 3.7
 
 
-## Result [Using the visualizations you have in your Tableau Story, describe the results of each visualization underneath the image.]
-INTRO:
+## Result
+
+The data I am analyzing for this project is from 
 Basic information: describe dashboard.
 
 **1. Checkout Times for Users**
