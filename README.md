@@ -26,6 +26,8 @@ Tableau is one of the most popular tools for data visualization in today’s pro
 
 ## Result
 
+**Basic Information**
+
 The first page of the story is the dashboard that contains some basic information about the data set. The purpose of this page is to familiarize with the data and to introduce what kind of data we will be dealing in the further analysis. 
 
 <p align="center">
