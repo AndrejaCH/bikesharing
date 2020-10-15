@@ -24,7 +24,7 @@ Tableau is one of the most popular tools for data visualization in today’s pro
     - Pandas, environment Python 3.7
 
 
-## Result
+## Results
 
 **Basic Information**
 
@@ -96,7 +96,6 @@ This graph displays all bikes and their accumulated trip utilization (datatype f
 
 From those two graphs we can see the most popular starting and ending locations. Darker and larger bubbles represent locations with the highest number of trips, lighter and smaller bubbles represent lowest number of trips. From the graph we can see that the downtown area is much more popular than area around downtown, yet as much as important to provide good customer experience.
 
-[maybe write how this data is important to and how we can use it…]
 
 ## Summary
 
