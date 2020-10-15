@@ -26,15 +26,18 @@ Tableau is one of the most popular tools for data visualization in today’s pro
 
 ## Result
 
-The first page of the story is the dashboard that contains some basic information about the data set. The purpose of this page is to familiarize with the data and to introduce what kind of data we will be dealing in the further analysis. The page contains the following:
+The first page of the story is the dashboard that contains some basic information about the data set. The purpose of this page is to familiarize with the data and to introduce what kind of data we will be dealing in the further analysis. 
+
+<p align="center">
+<img src="Graphics/Basics.PNG" width="50%" height="50%">
+</p>
+
+The page contains the following:
 -	Information about the data set date: August 2019 in New York City 
 -	Number of the total rides: 2,344,224
 -	Customer type: we have two types of users – subscribers and customers
 -	Peak hours of the selected month, divided by gender: we have three genders male, female and unknown, and we get a quick information about the users behavior what time of the day they use service the most.
 
-<p align="center">
-<img src="Graphics/Basics.PNG" width="60%" height="60%">
-</p>
 
 **1. Checkout Times for Users**
 
