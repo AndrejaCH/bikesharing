@@ -91,7 +91,7 @@ This graph displays all bikes and their accumulated trip utilization (datatype f
 ### 7. Top Starting Locations & Top Ending Locations
 
 <p align="center">
-<img src="Graphics/TopStatrtingLocations.PNG" width="30%" height="30%">    <img src="Graphics/TopEndingLocations.PNG" width="28%" height="28%">
+<img src="Graphics/TopStatrtingLocations.PNG" width="25%" height="25%">    <img src="Graphics/TopEndingLocations.PNG" width="27.3%" height="27.3%">
 </p>
 
 From those two graphs we can see the most popular starting and ending locations. Darker and larger bubbles represent locations with the highest number of trips, lighter and smaller bubbles represent lowest number of trips. From the graph we can see that the downtown area is much more popular than area around downtown, yet as much as important to provide good customer experience.
