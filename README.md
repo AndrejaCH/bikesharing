@@ -94,7 +94,7 @@ This graph displays all bikes and their accumulated trip utilization (datatype f
 <img src="Graphics/TopStatrtingLocations.PNG" width="25%" height="25%">    <img src="Graphics/TopEndingLocations.PNG" width="27.3%" height="27.3%">
 </p>
 
-From those two graphs we can see the most popular starting and ending locations. Darker and larger bubbles represent locations with the highest number of trips, lighter and smaller bubbles represent lowest number of trips. From the graph we can see that the downtown area is much more popular than area around downtown, yet as much as important to provide good customer experience.
+From those two graphs we can see the most popular starting and ending locations. Orange color represent subscribers, while blue represent customers. Larger bubbles represent locations with the highest number of trips, and smaller bubbles represent lowest number of trips. From the graph we can see what stations are more popular amongst suscribers vs. customers and what areas are more popular than others. Downtown area is much more popular than area around it, yet as important, since it is more spread out and also ensure good customer experience.
 
 
 ## Summary
@@ -103,7 +103,7 @@ The story of the NYC Citi Bike starts off with the basic information about the u
 
 -	Bike maintenance. Bike maintenance plays big role in this type of the business. Base on the graph “Peak house per Gender” the least popular time is between 11pm and 5am. This is good time to do the maintenance. Additionally, graph Bike Utilization shows that we could group bike utilization in roughly 4 groups. Some bikes are used far more often then the other, so good planning, rotation bikes form popular station to less popular stations is crucial. 
 
--	Customers (non-subscribers). Customers are the most important part in the business. As we prepare our business, we should pay attention to more “unpredictable” customers – “walk-in”. In popular times for tourism we can expect more customers will use the service. To be ready for this surg, business should plan ahead with maintenance the bikes, stations, especially the popular ones and of course keep the balance that subscribers always have access to their routine and ensure good customer experience. 
+-	Customers (non-subscribers). Customers are the most important part in the business. As we prepare our business, we should pay attention to more “unpredictable” customers – “walk-in”. In popular times for tourism we can expect more customers will use the service. To be ready for this surge, business should plan ahead with maintenance the bikes, stations, especially the popular ones and of course keep the balance that subscribers always have access to their routine and ensure good customer experience. 
 
 -	Gender. From the most graphs we saw that usage of the bikes is disproportional amongst genders. With careful and mindful marketing approach we could target underrepresented groups and increase the business. 
 
