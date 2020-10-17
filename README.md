@@ -55,7 +55,7 @@ The graph has number of checkout bikes (number of trips) on the y-axis and trip 
 <img src="Graphics/CheckoutTimesByGender.PNG" width="50%" height="50%">
 </p>
 
-The graph shows number of checkout bikes on the y-axis and trip duration on the x-axis. X-axis is divided into hours (at the top) and minutes (at the bottom) for more detailed information about trip duration. Tree different colors represent the classification of gender. Yellow represent male, blue represent female and red represent the unknown gender. From the graph we can see that checkout times for males is much higher than for female or unknown gender, especially between 1hour to 10hours checkout time duration. 
+The graph shows number of checkout bikes on the y-axis and trip duration on the x-axis. X-axis is divided into hours (at the top) and minutes (at the bottom) for even more detailed information about trip duration. Tree different colors represent the classification of gender. Yellow represent male, blue represent female and red represent the unknown gender. From the graph we can see that checkout times for males is much higher than for female or unknown gender, especially between 1hour to 10hours checkout time duration. 
 
 ### 3. Trips by Weekday per Hour
 
