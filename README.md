@@ -86,7 +86,7 @@ The graph shows number of trips by weekday, by user type (subscribers and custom
 <img src="Graphics/BikeUtilization.PNG" width="30%" height="30%">
 </p>
 
-This graph displays all bikes and their accumulated trip utilization (datatype for the time used is used as integer for easier calculations). When hover over the bike id and time units are displayed for each bike. Looking at the graph we could group this data roughly into 4 groups: Small bubble approx. 200,000 time units, Medium-small bubble approx. 300,000 time units, Medium bubble approx. 1,000,000 time units and Large bubble approx. 2,000,000 time unit. From this visualization we can see how to classify bikes into groups for their maintenance, rotation and distribution. 
+This graph displays all bikes and their accumulated trip utilization (datatype for the time used is used as integer for easier calculations). When hover over the bike id and time units are displayed for each bike. Looking at the graph we could group this data roughly into 4 groups: Small bubble approx. 200,000 time units, Medium-small bubble approx. 300,000 time units, Medium bubble approx. 1,000,000 time units and Large bubble approx. 2,000,000 time unit. From this visualization we can classify bikes into groups and put together a plan for their maintenance, rotation and distribution. 
 
 ### 7. Top Starting Locations & Top Ending Locations
 
@@ -99,12 +99,9 @@ From those two graphs we can see the most popular starting and ending locations.
 
 ## Summary
 
-[interactive map, hover over, ....!! provide numbers, maybe %!! - calculations!! % of total??]
+The story of the NYC Citi Bike starts off with the basic information about the users and the trips. From the first page we can learn a lot about users for bikeshare company and helps us easier to understand further analysis. This data analysis contains data from August 2019, a busy time for bikeshare in NYC. This is important because bike maintenance and customers that are not subscribers plays big role in this type of business. I want to focus on few components for this analysis:
 
-
-The story of the NYC Citi Bike starts off with the basic information about the users and the trips. This data analysis contains data from August 2019, assuming that is one of the busiest times for using bikes in NYC. This is important because bike maintenance and customers that are not subscribers plays big role in this type of business. I want to focus on few components for this analysis:
-
--	Bike maintenance. As mentioned before bike maintenance plays big role in this type of the business. Base on the graph “Peak house per Gender” the least popular time is between 11pm and 5am. This is good time to do the maintenance. Additionally, graph Bike Utilization shows that we could group bike utilization in roughly 4 groups. Some bikes are used far more often then the other, so good planning, rotation bikes form popular station to less popular stations is crucial. 
+-	Bike maintenance. Bike maintenance plays big role in this type of the business. Base on the graph “Peak house per Gender” the least popular time is between 11pm and 5am. This is good time to do the maintenance. Additionally, graph Bike Utilization shows that we could group bike utilization in roughly 4 groups. Some bikes are used far more often then the other, so good planning, rotation bikes form popular station to less popular stations is crucial. 
 
 -	Customers (non-subscribers). Customers are the most important part in the business. As we prepare our business, we should pay attention to more “unpredictable” customers – “walk-in”. In popular times for tourism we can expect more customers will use the service. To be ready for this surg, business should plan ahead with maintenance the bikes, stations, especially the popular ones and of course keep the balance that subscribers always have access to their routine and ensure good customer experience. 
 
