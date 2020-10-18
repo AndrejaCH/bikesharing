@@ -110,7 +110,8 @@ Customers are the most important part in the business. Our business is doing wel
 **Gender** 
 From the most graphs we saw that usage of the bikes is disproportional amongst genders. With careful and mindful marketing approach we could target underrepresented groups and increase the business. 
 
--	Trip-duration. The most popular time duration checkout time is between 3-8 hours. From this we can learn more about user behaviour.  Users checkout the bike for a single trip and return bike to the station (3 hour) or may rent the be bike and keep it until their return trip (8+ hours). We could address few things here. From revenue perspective is good that customer is willing to pay for the whole time, yet the utilization of the bikes may not be the most efficient. Business could set up more stations for users to return the bikes on the station for the time that they are not using the bikes. 
+**Trip-duration** 
+The most popular trip duration checkout time is between 3-8 hours. From this we can learn more about user behaviour.  Users checkout the bike for a single trip and return bike to the station (3 hour) or may rent the be bike and keep it until their return trip (8+ hours). We could address few things here. From revenue perspective is good that customer is willing to pay for the whole time, yet the utilization of the bikes may not be the most efficient. Business could set up more stations for users to return the bikes on the station for the time that they are not using the bikes. 
 
 Additionally, I would suggest few things for further analysis with the given data set:
 -	Trip duration of checkout times per user types. With this analysis we could see the trend of trip durations amongst user types.
