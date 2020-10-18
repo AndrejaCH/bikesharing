@@ -11,7 +11,7 @@ For this project I am creating data visualization with Tableau for bike-sharing 
 
 ### Background 
 
-Tableau is one of the most popular tools for data visualization in today’s professional world. It allows data visualization professionals to create data stories that are visually appealing and easy to understand for a non-technical audience. Moreover, Tableau provides the tool to create powerful analytic dashboards and tell a clear story that can be easily shared with others. Tableau can be simple, requiring little-to-no-coding, yet on the other hand can be quite complex, requiring some experience. For example writing custom code in so-called *calculated field*, converting specific datatypes and so on. For this project I am using:
+Tableau is one of the most popular tools for data visualization in today’s professional world. It allows data visualization professionals to create data stories that are visually appealing and easy to understand for a non-technical audience. Moreover, Tableau provides the tool to create powerful analytic dashboards and tell a clear story that can be easily shared with others. Tableau can be simple, requiring little-to-no-coding, or quite complex, requiring some experience to write custom code in so-called *calculated field*. For this project I am using:
 -	Tableau to create visualizations, dashboard and story.
 -	Pandas to convert integer to a datetime datatype.
 
@@ -28,7 +28,7 @@ Tableau is one of the most popular tools for data visualization in today’s pro
 
 ### Basic Information
 
-The first page of the story is the dashboard that contains some information about the data set. The purpose of this page is to familiarize with the data and to introduce to the audiance what kind of data we will be dealing in the further analysis. 
+The first page of the story is the dashboard that contains basic information about the data set. The purpose of this page is to familiarize with the data and to introduce to the audiance what kind of data we will be dealing in the further analysis. 
 
 <p align="center">
 <img src="Graphics/Basics.PNG" width="50%" height="50%">
@@ -94,14 +94,16 @@ This graph displays all bikes and their accumulated trip utilization (datatype f
 <img src="Graphics/TopStatrtingLocations.PNG" width="25%" height="25%">    <img src="Graphics/TopEndingLocations.PNG" width="27.3%" height="27.3%">
 </p>
 
-From those two graphs we can see the most popular starting and ending locations. Orange color represent subscribers, while blue represent customers. Larger bubbles represent locations with the highest number of trips, and smaller bubbles represent lowest number of trips. From the graph we can see what stations are more popular amongst suscribers vs. customers and what areas are more popular than others. Downtown area is much more popular than area around it, yet as important, since it is more spread out and also ensure good customer experience.
+From those two graphs we can see the most popular starting and ending locations. Orange color represent subscribers, while blue represent customers. Larger bubbles represent locations with the highest number of trips, and smaller bubbles represent lowest number of trips. From the graph we can see what stations are more popular amongst suscribers vs. customers and what areas are more popular than others. Downtown area is much more popular than area around it, yet it is as important, in order to ensure good customer experience.
 
 
 ## Summary
 
-The story of the NYC Citi Bike starts off with the basic information about the users and the trips. From the first page we can learn a lot about users for bikeshare company and helps us understand data in further analysis. This data analysis contains data from August 2019, a busy time for bikeshare in NYC. This is important because bike maintenance and customers that are not subscribers plays big role in this type of business. I want to focus on few components for this analysis:
+The story of the NYC Citi Bike starts off with the basic information about the users and the trips. From the first page we can learn a lot about users for bikeshare company and helps us understand data in further analysis. This data analysis contains data from August 2019, a busy time for bikeshare business in NYC. We are dealing with two types of the users - subscribers and customers, three genders - male, female and unknown.
 
--	Bike maintenance. Bike maintenance plays big role in this type of the business. Base on the graph “Peak hours per Gender” the least popular time is between 11pm and 5am. This is good time to do the maintenance. Additionally, graph Bike Utilization shows that we could group bike utilization in roughly 4 groups. Some bikes are used far more often then the other, so good planning, rotation bikes form popular station to less popular stations is crucial. 
+In this analysis I am focusing on the following:
+
+-	Bike maintenance. Bike maintenance plays big role in bikeshare business. From the graphs *Peak Hours per Gender*, *Trips by Weekday per Hour* and *Trips by Gender (Weekday per Hour)* we can see that the least busy time is between 11pm and 5am. That suggest when is a good time to do the maintenance. Additionally, graph *Bike Utilization* shows that we could group bike utilization in roughly 4 groups. Some bikes are used far more often then the other. In this case we can make a plan for schedule the maintainance and  rotation of the bikes form popular station to less popular stations is crucial. 
 
 -	Customers (non-subscribers). Customers are the most important part in the business. As we prepare our business, we should pay attention to more “unpredictable” customers – “walk-in”. In popular times for tourism we can expect more customers will use the service. To be ready for this surge, business should plan ahead with maintenance the bikes, stations, especially the popular ones and of course keep the balance that subscribers always have access to their routine and ensure good customer experience. 
 
