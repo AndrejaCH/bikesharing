@@ -21,14 +21,14 @@ Tableau is one of the most popular tools for data visualization in today’s pro
 -	Software:
     - Tableau Public 2020.3
 -	Languages & Environment:
-    - Pandas, environment Python 3.7
+    - Pandas, Python 3.7
 
 
 ## Results
 
 ### Basic Information
 
-The first page of the story is the dashboard that contains basic information about the data set. The purpose of this page is to familiarize with the data and to introduce to the audiance what kind of data we will be dealing in the further analysis. 
+On first page of the story is the dashboard that contains basic information about the data set. The purpose of this page is to familiarize with the data and to introduce to the audiance what kind of data we will be dealing in the further analysis. 
 
 <p align="center">
 <img src="Graphics/Basics.PNG" width="50%" height="50%">
@@ -38,7 +38,7 @@ The page contains the following information:
 -	Type of business, time frame and location of the data: CitiBike, New York City, August 2019.
 -	Number of the total rides: 2,344,224.
 -	Customer type: subscribers and customers.
--	Peak hours, divided by gender: Three genders male, female and unknown, with at-a-glance information about consumers behavior.
+-	Peak hours, divided by gender, with at-a-glance information about user behaviour.
 
 
 ### 1. Checkout Times for Users
@@ -47,7 +47,7 @@ The page contains the following information:
 <img src="Graphics/CheckoutTimesForUsers.PNG" width="50%" height="50%">
 </p>
 
-The graph has number of checkout bikes (number of trips) on the y-axis and trip durations on the x-axis. X-axis is divided into hours (at the top) and minutes (at the bottom) for even more detailed information about trip duration. From the graph we can see that the most frequent trip duration is between 3 hours to 9 hours (aprox: 1,101,425 trips), followed by longer trip duration of 9+ hours (9-24 hours to be exact) with the aprox. number of trips of 1,021,670. Shorter trip duration between few minutes to 3 hours represet aprox. 236,526 trips.
+The graph has number of checkout bikes (number of trips) on the y-axis and trip duration on the x-axis. X-axis is divided into hours (at the top) and minutes (at the bottom) for even more detailed information about trip duration. From the graph we can see that the most frequent trip duration is between 3 hours to 9 hours (aprox: 1,101,425 trips), followed by longer trip duration of 9+ hours (9-24 hours to be exact) with the aprox. number of trips of 1,021,670. Shorter trip duration between few minutes to 3 hours represet aprox. 236,526 trips.
 
 ### 2. Check Out Time by Gender
 
@@ -86,7 +86,7 @@ The graph shows number of trips by weekday, by user type (subscribers and custom
 <img src="Graphics/BikeUtilization.PNG" width="30%" height="30%">
 </p>
 
-This graph displays all bikes and their accumulated trip utilization (datatype for the time used is used as integer for easier calculations). When hover over the bike id and time units are displayed for each bike. Looking at the graph we could group this data roughly into 4 groups: Small bubble approx. 200,000 time units, Medium-small bubble approx. 300,000 time units, Medium bubble approx. 1,000,000 time units and Large bubble approx. 2,000,000 time unit. From this visualization we can classify bikes into groups and put together a plan for their maintenance, rotation and distribution. 
+This graph displays all bikes and their accumulated trip utilization (datatype for the time used is used as integer for easier calculations). When hover over the graph the bike id and time units are displayed for each bike. Looking at the graph we could group this data roughly into 4 groups: Small bubble approx. 200,000 time units, Medium-small bubble approx. 300,000 time units, Medium bubble approx. 1,000,000 time units and Large bubble approx. 2,000,000 time unit. From this visualization we can classify bikes into groups and put together a plan for their maintenance, rotation and distribution on the stations. 
 
 ### 7. Top Starting Locations & Top Ending Locations
 
@@ -94,27 +94,31 @@ This graph displays all bikes and their accumulated trip utilization (datatype f
 <img src="Graphics/TopStatrtingLocations.PNG" width="25%" height="25%">    <img src="Graphics/TopEndingLocations.PNG" width="27.3%" height="27.3%">
 </p>
 
-From those two graphs we can see the most popular starting and ending locations. Orange color represent subscribers, while blue represent customers. Larger bubbles represent locations with the highest number of trips, and smaller bubbles represent lowest number of trips. From the graph we can see what stations are more popular amongst suscribers vs. customers and what areas are more popular than others. Downtown area is much more popular than area around it, yet it is as important, in order to ensure good customer experience.
+From those two graphs we can see the most popular starting and ending locations. Orange color represent subscribers, while blue represent customers. Larger bubbles represent locations with the highest number of trips, and smaller bubbles represent lowest number of trips. From the graph we can see which stations are more popular amongst suscribers vs. customers and what areas are more popular than others. Downtown area is much more popular than area around it, yet it is as important, in order to ensure good customer experience.
 
 
 ## Summary
 
-The story of the NYC Citi Bike starts off with the basic information about the users and the trips. From the first page we can learn a lot about users for bikeshare company and helps us understand data in further analysis. This data analysis contains data from August 2019, a busy time for bikeshare business in NYC, we are dealing with two types of the users - subscribers and customers, three genders - male, female and unknown and two important aspects of the bussiness - time and bike maintainance. 
+The story of the NYC CitiBike starts off with the basic information about the users and the trips. From the first page we can learn a lot about users for bikeshare company and helps us understand data in further analysis. This data analysis contains data from **August 2019**, a busy time for **bikeshare** business in **NYC**. We have two user types **subscribers** and **customers**, three genders - **male**, **female** and **unknown** and two important aspects of the bussiness - **time** and **bike maintainance**. 
 
 **Bike maintenance**
-Bike maintenance plays a big role in bikeshare business. From the graphs *Peak Hours per Gender*, *Trips by Weekday per Hour* and *Trips by Gender (Weekday per Hour)* we can see that the least busy time is between 11pm and 5am. That suggest a good time to do the maintenance of the bikes. Additionally, graph *Bike Utilization* shows that we could group bike utilization in roughly 4 groups. Some bikes are used far more often then the other. In this case we can make a stagger plan for maintainance and rotation of the bikes form popular station to less popular stations as we can in the graph *Top Starting Stations* and  *Top Ending Stations*. 
+
+Bike maintenance plays a big role in bikeshare business. Heat maps are great visualization for large amount of data and give us clear story about the data. From the graphs *Peak Hours per Gender*, *Trips by Weekday per Hour* and *Trips by Gender (Weekday per Hour)* we can see that the least busy time is between 11pm and 5am. That suggest a good time bike maintenance. Additionally, graph *Bike Utilization* shows that we could group bike utilization roughly into 4 groups. Some bikes are used far more often than the other. In this case we can make a stagger plan for maintainance and rotation of the bikes form popular station to less popular stations as we can in the graph *Top Starting Stations* and  *Top Ending Stations*. 
 
 **Customers and Subscribers**
-Customers are the most important part in the business. Our business is doing well because of them. Those two types of the users have different habits and nature of using the service. It is important to ensure a good customer experiance in both cases. In popular times for tourism we can expect more customers (non-suscribers) will use the service. In order to be prepared for this surge, business should plan ahead with maintenance the bikes, stations, especially the popular ones, in order to keep the right balance between users - subscribers always have access to their routine, reliable transportation and good customer experience. 
 
-**Gender** 
-From the most graphs we saw that usage of the bikes is disproportional amongst genders. With careful and mindful marketing approach we could target underrepresented groups and increase the business. 
+Customers are the most important part in the business. Our business is doing well because of them. In bikeshare bussines we have two types of the users with a slightly different habit of using the service. It is important to be aware of those differences to ensure a good customer experiance. In popular times for tourism we can expect that more customers (non-suscribers) will use the service. In order to be prepared for this surge, business should plan ahead for bike and station maintenance, rotation of the bikes and keep popular stations stocked.
 
-**Trip-duration** 
-The most popular trip duration checkout time is between 3-8 hours. From this we can learn more about user behaviour.  Users checkout the bike for a single trip and return bike to the station (3 hour) or may rent the be bike and keep it until their return trip (8+ hours). We could address few things here. From revenue perspective is good that customer is willing to pay for the whole time, yet the utilization of the bikes may not be the most efficient. Business could set up more stations for users to return the bikes on the station for the time that they are not using the bikes. 
+**Gender**
+
+From the most graphs we can see that usage of the bikes is disproportional amongst genders. With careful and mindful marketing approach we could target underrepresented groups and increase the business. 
+
+**Trip-duration**
+
+The most popular trip duration checkout time is between 3-8 hours. From this we can learn more about users' behaviour. One way to see this side of the story is that users checkout the bike for a single trip and return bike to the station (3 hour) or may rent the be bike and keep it until their return trip (8+ hours). We could address few things here. From revenue perspective is good that customer is willing to pay for the whole time, yet the utilization of the bikes may not be the most efficient. Business could set up more stations for users to return the bikes on the station for the time that they are not using the bikes. 
 
 Additionally, I would suggest few things for further analysis with the given data set:
 -	Trip duration of checkout times per user types. With this analysis we could see the trend of trip durations amongst user types.
--	Weekday and the trip duration. With this analysis we could see if the trend of the trip duration is similar or different on different days.
+-	Weekday and the trip duration. With this analysis we could see if the trend of the trip duration is similar on particular day (i.e. weekends and weekdays).
 -	Additional color filter in Top Ending and Top Starting location to see which stations are more popular amongst subscribers and customers. 
 
